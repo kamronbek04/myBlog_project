@@ -1,0 +1,147 @@
+@media (max-width: 978px) {
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-text {
+    margin-right: 0;
+  }
+  .hero-img-box {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-navbar {
+    display: block;
+    position: relative;
+  }
+  .header-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .post-link {
+    display: none;
+  }
+  .post-top {
+    justify-content: flex-start;
+  }
+  .card,
+  .card:first-child {
+    margin-right: 0;
+  }
+  .post-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 25px;
+  }
+
+  .works-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .works-wrapper {
+    padding-left: 0;
+  }
+  .works-card__img {
+    margin-bottom: 17px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .hero-text__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero-text__description {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .hero-img {
+    width: 175px;
+    height: 180px;
+  }
+  .hero-img-box::before {
+    width: 175px;
+    height: 180px;
+  }
+  .card-text__data,
+  .card-text__platform {
+    font-size: 16px;
+  }
+  .card__title {
+    font-size: 22px;
+  }
+
+  .post-top {
+    justify-content: center;
+  }
+  .works-top {
+    text-align: center;
+  }
+  .works-card__img {
+    width: 339px;
+  }
+  .works-card-2,
+  .works-card-3,
+  .works-card-4 {
+    display: none;
+  }
+  .works-card-5 {
+    display: block;
+  }
+  .works-card__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .works-card__description {
+    max-width: 327px;
+  }
+  /*******BLOGS WEBPAGE******/
+  .blogs-main-title {
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .blog-title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 5px;
+  }
+  .blog-text {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 17px;
+    max-width: 339px;
+  }
+
+  .contact-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .contact-feel {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .contact-description,
+  .contact-img_1,
+  .contact-img_2,
+  .contact-img_3 {
+    margin-bottom: 23px;
+  }
+}
